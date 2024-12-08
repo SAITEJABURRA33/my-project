@@ -1,0 +1,80 @@
+/* tableStyles.css */
+
+.table-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .table td {
+    color: #555;
+  }
+  
+  .table-button {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .table-button:hover {
+    background-color: #218838;
+  }
+  
+  .table-button-icon {
+    color: #28a745;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .table-button-icon:hover {
+    color: #218838; 
+  }
+  
+  .table-button-icon-delete {
+    color: #dc3545;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .table-button-icon-delete:hover {
+    color: #c82333; 
+  }
+  
+  .table-button svg {
+    margin-right: 0; 
+  }
+  
